@@ -10,7 +10,7 @@ class ReservasiController extends Controller
 {
     public function index()
     {
-        return "Reservasi berhasil";
+        return view('reservasi');
     }
 
     public function createPayment(Request $request)
